@@ -2,9 +2,9 @@
 
 Yet another implementation of the DDPM paper: https://arxiv.org/abs/2006.11239
 
-#### A DDPM is pretty much this
+## A DDPM is pretty much this:
 
-**Training**
+**Training:**
 - **Input**: Training data $\mathbf{x}$
 - **Output**: Model parameters $\phi_t$
 - **Repeat**:
@@ -15,7 +15,7 @@ Yet another implementation of the DDPM paper: https://arxiv.org/abs/2006.11239
     - Accumulate losses for batch and take gradient step
 - Until converged
 
-**Sampling**
+**Sampling:**
 - **Input**: Model, $\mathbf{g}_t(\cdot, \phi_t)$
 - **Output**: Sample, $\mathbf{x}$
 - $\mathbf{z}_T \sim \mathcal{N}(\mathbf{0}, \mathbf{I})$
