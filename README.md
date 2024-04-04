@@ -1,5 +1,7 @@
 # baby diffusion model
 
+Yet another implementation of the DDPM paper: https://arxiv.org/abs/2006.11239
+
 #### A DDPM is pretty much this
 
 $$
