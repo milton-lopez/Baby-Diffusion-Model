@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+jupyter
+jupyterlab
+tensor-sensor
+seaborn
+spacy
+transformers
+torch
+pyarrow
+fastparquet
+scikit-learn
