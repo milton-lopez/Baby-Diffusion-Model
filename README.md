@@ -24,3 +24,6 @@ Yet another implementation of the DDPM paper: https://arxiv.org/abs/2006.11239
     - $\boldsymbol{\epsilon} \sim \mathcal{N}_\epsilon(\mathbf{0}, \mathbf{I})$
     - $z_{t-1} = \hat{z}_{t-1} + \sigma_t \epsilon$
 - $\mathbf{x} = \frac{1}{\sqrt{1 - \beta_1}} \mathbf{z}_1 - \frac{\beta_1}{\sqrt{1 - \alpha_1} \sqrt{1 - \beta_1}} \mathbf{g}_1(\mathbf{z}_1, \phi_1)$
+
+**TODO**:
+- [ ] More toy synth datasets
